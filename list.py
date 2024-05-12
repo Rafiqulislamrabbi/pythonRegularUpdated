@@ -78,3 +78,60 @@
 # thislist = ["apple", "banana", "cherry"]
 # thislist.clear()
 # print(thislist)
+
+
+
+
+# my_list=["orange", "mango", "kiwi"]
+# new_list=[]
+#
+# for i in my_list:
+#     if "a" in i:
+#         new_list.append(i)
+# print(new_list)
+#
+#
+#
+#
+# my_list=["orange", "mango", "kiwi"]
+# new_list=[i for i in my_list if "a" in i]
+# print(new_list)
+#
+#
+#
+#
+#
+# thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+# thislist.sort()
+# print(thislist)
+#
+#
+#
+#
+# thislist = [100, 50, 65, 82, 23]
+# thislist.sort(reverse = True)
+# print(thislist)
+#
+#
+#
+# thislist = ["banana", "Orange", "Kiwi", "cherry"]
+# thislist.sort(key = str.lower)
+# print(thislist)
+#
+#
+#
+# thislist = ["apple", "banana", "cherry"]
+# mylist = thislist.copy()
+# print(mylist)
+#
+#
+#
+# fruits = ['apple', 'banana', 'cherry']
+# x = fruits.count("cherry")
+
+
+
+
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.index("cherry")
+print(x)
