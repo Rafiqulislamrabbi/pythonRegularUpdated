@@ -135,3 +135,79 @@
 # fruits = ['apple', 'banana', 'cherry']
 # x = fruits.index("cherry")
 # print(x)
+
+
+
+
+
+
+
+
+# my_list= [100,200,300,400,"500"]
+# string_numbers=[]
+# for i in my_list:
+#     if isinstance(i,str):
+#         string_numbers.append(i)
+# print(string_numbers)
+
+
+
+
+# my_list= [100,200,300,400,50,35,111,155]
+# for i in my_list:
+#     if i>100 and i%2==0:
+#         print(i)
+#
+#
+#
+#
+# data = [("samrat", 10), ("rafiq", 10), ("mamun", 20), ("rafiq", 70), ("samrat", 50), ("azad", 50)]
+# my_dict = {}
+#
+# for key, value in data:
+#     if key in my_dict:
+#         my_dict[key] += value
+#     else:
+#         my_dict[key] = value
+#
+# for key, total in my_dict.items():
+#     if total >= 100:
+#         print(key)
+
+
+
+
+#
+l = ["rabbi 20", "rafiq 20", "aaaa 30", "rafiq 20"]
+
+sum_dict = {}
+
+for item in l:
+    key, value = item.split()
+    value = int(value)
+
+    if key in sum_dict:
+        sum_dict[key] += value
+    else:
+        sum_dict[key] = value
+
+for key, total_value in sum_dict.items():
+    if total_value > 20:
+        print(f"{key}: {total_value}")
+
+
+
+fruits=["fdf","apple","banana","cherry"]
+n=[ i.upper() for  i in fruits  ]
+
+print(n)
+
+
+n= ["banana", "Orange", "Kiwi", "cherry"]
+b=[]
+for i in n:
+    a=i.lower()
+    b.append(a)
+
+b.sort(reverse=True)
+print(b)
