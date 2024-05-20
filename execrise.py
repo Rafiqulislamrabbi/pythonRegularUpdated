@@ -79,16 +79,3 @@
 #         factorial = factorial * i
 #     print("The factorial of", num, "is", factorial)
 
-
-
-
-
-a=[1,2,3,4]
-b=[2,5,6,1]
-target=3
-for i in a:
-    for j in b:
-        if i+j==target:
-            print(i,j)
-
-
