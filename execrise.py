@@ -65,13 +65,30 @@
 #     print("Please Input a Valid Number")
 
 
-num = int(input("Enter a number: "))
-factorial = 1
-if num < 0:
-    print("Sorry, factorial does not exist for negative numbers")
-elif num == 0:
-    print("The factorial of 0 is 1")
-else:
-    for i in range(1, num + 1):
-        factorial = factorial * i
-    print("The factorial of", num, "is", factorial)
+
+
+
+# num = int(input("Enter a number: "))
+# factorial = 1
+# if num < 0:
+#     print("Sorry, factorial does not exist for negative numbers")
+# elif num == 0:
+#     print("The factorial of 0 is 1")
+# else:
+#     for i in range(1, num + 1):
+#         factorial = factorial * i
+#     print("The factorial of", num, "is", factorial)
+
+
+
+
+
+a=[1,2,3,4]
+b=[2,5,6,1]
+target=3
+for i in a:
+    for j in b:
+        if i+j==target:
+            print(i,j)
+
+
