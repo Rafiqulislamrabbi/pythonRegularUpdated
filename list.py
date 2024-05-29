@@ -178,36 +178,36 @@
 
 
 #
-l = ["rabbi 20", "rafiq 20", "aaaa 30", "rafiq 20"]
-
-sum_dict = {}
-
-for item in l:
-    key, value = item.split()
-    value = int(value)
-
-    if key in sum_dict:
-        sum_dict[key] += value
-    else:
-        sum_dict[key] = value
-
-for key, total_value in sum_dict.items():
-    if total_value > 20:
-        print(f"{key}: {total_value}")
-
-
-
-fruits=["fdf","apple","banana","cherry"]
-n=[ i.upper() for  i in fruits  ]
-
-print(n)
-
-
-n= ["banana", "Orange", "Kiwi", "cherry"]
-b=[]
-for i in n:
-    a=i.lower()
-    b.append(a)
-
-b.sort(reverse=True)
-print(b)
+# l = ["rabbi 20", "rafiq 20", "aaaa 30", "rafiq 20"]
+#
+# sum_dict = {}
+#
+# for item in l:
+#     key, value = item.split()
+#     value = int(value)
+#
+#     if key in sum_dict:
+#         sum_dict[key] += value
+#     else:
+#         sum_dict[key] = value
+#
+# for key, total_value in sum_dict.items():
+#     if total_value > 20:
+#         print(f"{key}: {total_value}")
+#
+#
+#
+# fruits=["fdf","apple","banana","cherry"]
+# n=[ i.upper() for  i in fruits  ]
+#
+# print(n)
+#
+#
+# n= ["banana", "Orange", "Kiwi", "cherry"]
+# b=[]
+# for i in n:
+#     a=i.lower()
+#     b.append(a)
+#
+# b.sort(reverse=True)
+# print(b)
